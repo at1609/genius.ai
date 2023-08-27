@@ -128,6 +128,22 @@ export const LandingContent = () => {
         <p className="text-gray-300">Email: ankitripathi1609@gmail.com</p>
       </section>
 
+      {/* Social Links Section */}
+      <section className="my-16 text-center">
+        <h2 className="text-3xl font-extrabold text-white mb-4">Connect Us</h2>
+        <div className="flex justify-center gap-4">
+          {/* Instagram Link */}
+          <a href="https://www.instagram.com/your_instagram_account" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            <i className="fab fa-instagram text-2xl"></i> Instagram
+          </a>
+
+          {/* Discord Link */}
+          <a href="https://discord.gg/your_discord_server" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            <i className="fab fa-discord text-2xl"></i> Discord
+          </a>
+        </div>
+      </section>
+
       {/* Add more sections as needed */}
     </div>
   );
